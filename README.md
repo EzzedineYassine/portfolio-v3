@@ -48,10 +48,10 @@ Clone and run locally without requiring any npm build steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/EzzedineYassine/yassin-portfolio-v3.git
+git clone https://github.com/EzzedineYassine/portfolio-v3.git
 
 # Navigate into project directory
-cd yassin-portfolio-v3
+cd portfolio-v3
 
 # Serve using any local static web server
 python -m http.server 3000
