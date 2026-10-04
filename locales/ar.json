@@ -1,0 +1,239 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "timeline": "المسار",
+    "contact": "التواصل",
+    "resume": "السيرة الذاتية"
+  },
+  "hero": {
+    "greeting": "مرحباً، أنا",
+    "name": "ياسين عزالدين",
+    "typed": [
+      "مطور <span class=\"hero__fullstack\">Full-Stack</span> شامل",
+      "طامح في مجال <span class=\"hero__frontend\">علوم البيانات</span>",
+      "طامح في مجال <span class=\"hero__backend\">الذكاء الاصطناعي</span>",
+      "زميلكم <span class=\"hero__next\">القادم</span> في العمل"
+    ],
+    "paragraph": "طالب في السنة الثالثة إجازة في إعلامية التصرف (ذكاء الأعمال وتحليل البيانات) بكلية العلوم الاقتصادية والتصرف بنابل. شغوف بنمذجة البيانات وتعلم الآلة، مع خبرة عملية في تطوير الويب والحلول البرمجية، وأبحث عن تدريب مشروع تخرج (PFE) في علوم البيانات أو الذكاء الاصطناعي.",
+    "connectBtn": "تواصل معي",
+    "viewWork": "استكشف أعمالي"
+  },
+  "projects": {
+    "heading": "المشاريع",
+    "items": [
+      {
+        "id": "phantom-stickers",
+        "title": "PHANTOM STICKERS",
+        "category": "متجر إلكتروني Full-Stack",
+        "description": "منصة تجارة إلكترونية متكاملة تم بناؤها باستخدام React (Vite) و Supabase، وتتضمن واجهة إدارة CRUD آمنة مع نظام مصادقة ونشر سحابي محسن على Vercel.",
+        "tags": [
+          "React",
+          "Vite",
+          "Supabase",
+          "JavaScript",
+          "Tailwind",
+          "Vercel"
+        ],
+        "demoUrl": "https://phantom-stickers.vercel.app",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "image": "./assets/images/phantom-stickers.png",
+        "video": "./assets/videos/phantomstickers.mp4"
+      },
+      {
+        "id": "bi-customer-segmentation",
+        "title": "BI CUSTOMER SEGMENTATION",
+        "category": "علم البيانات وذكاء الأعمال",
+        "description": "نظام تحليلي لبيانات التجزئة بلغة Python يعتمد على نموذج RFM وخوارزمية K-Means للتجميع وخوارزمية Apriori لقواعد الارتباط، مع لوحة تحكم تفاعلية مبنية بـ PyQt5.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "K-Means",
+          "Apriori",
+          "PyQt5"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "movie-recommendation",
+        "title": "MOVIE RECOMMENDATION SYSTEM",
+        "category": "التعلم الآلي",
+        "description": "خوارزمية ترشيح تعاوني (Collaborative Filtering) في التعلم الآلي مطورة باستخدام Python و Pandas و Scikit-learn لتقديم توصيات أفلام مخصصة بدقة.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "Collaborative Filtering",
+          "ML"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "moto-parts",
+        "title": "MOTO PARTS STOCK MANAGER",
+        "category": "قواعد البيانات وتطبيقات سطح المكتب",
+        "description": "نظام لإدارة المخزون يعتمد على قاعدة بيانات علائقية متكاملة تدعم جميع عمليات CRUD، مع تتبع فوري للمخزون وسجل تعاملات الموردين.",
+        "tags": [
+          "MySQL",
+          "PL/SQL",
+          "Flutter",
+          "Database Design",
+          "CRUD"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/motoparts.mp4"
+      },
+      {
+        "id": "hotel-management",
+        "title": "HOTEL AMIRA",
+        "category": "تطبيق ويب تفاعلي",
+        "description": "تطبيق ويب ديناميكي لحجز الفنادق ومتابعة شغور الغرف وإدارة حسابات المستخدمين والصلاحيات المختلفة.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML5/CSS3"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/hotel-amira.mp4"
+      }
+    ],
+    "buttons": {
+      "demo": "معاينة",
+      "code": "الكود",
+      "viewAll": "عرض جميع المشاريع"
+    },
+    "yourProject": {
+      "title": "مشروعك القادم",
+      "desc": "هل تبحث عن مطور شغوف ومؤهل للانضمام إلى فريقك أو المساعدة في إنجاز مشروعك القادم؟ يسعدني التعاون معك!",
+      "btn": "تواصل معي"
+    }
+  },
+  "skills": {
+    "heading": "المهارات التقنية",
+    "categories": {
+      "languagesWeb": "لغات البرمجة والويب",
+      "databasesData": "قواعد البيانات والبيانات",
+      "toolsDevops": "الأدوات والـ DevOps",
+      "certifications": "الشهادات واللغات"
+    },
+    "certificationsTitle": "الشهادات المعتمدة",
+    "spokenLanguagesTitle": "اللغات المتقنة"
+  },
+  "timeline": {
+    "heading": "المسار المهني والتعليمي",
+    "subheading": "محطات خبرتي العملية ومسيرتي الأكاديمية",
+    "tabs": {
+      "all": "الكل",
+      "experience": "الخبرات",
+      "education": "التعليم"
+    },
+    "items": [
+      {
+        "type": "experience",
+        "role": "متدرب في تطوير التطبيقات",
+        "organization": "اتصالات تونس (Tunisie Telecom)",
+        "period": "جويلية 2026",
+        "location": "نابل، تونس",
+        "description": "تطوير تطبيق لإدارة المهام وتطبيق لإدارة مسارات العمل (Workflow Management) باستخدام حزمة MERN وقاعدة بيانات MongoDB. العمل على مكونات التطبيق وقواعد البيانات في بيئة تطوير محلية، بشكل مستقل وضمن فريق العمل.",
+        "tags": [
+          "حزمة MERN",
+          "MongoDB",
+          "إدارة مسارات العمل",
+          "إدارة المهام"
+        ]
+      },
+      {
+        "type": "experience",
+        "role": "مطور ويب وتطبيقات مستقل (Full-Stack Freelance)",
+        "organization": "مشاريع تجارية للعملاء",
+        "period": "2026",
+        "location": "تونس وعن بُعد",
+        "description": "تطوير وتسليم مشاريع فعلية في الإنتاج تشمل Phantom Stickers (منصة تجارة إلكترونية متكاملة بـ MERN وSupabase)، Moto Parts Stock Manager (تطبيق مخزون بـ Flutter وSQLite)، Cafément (قائمة طعام رقمية بـ QR Code)، و Hotel Amira.",
+        "tags": [
+          "MERN",
+          "Flutter",
+          "Supabase",
+          "SQLite",
+          "Production"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "الإجازة في إعلامية التصرف – ذكاء الأعمال (Business Intelligence)",
+        "organization": "كلية العلوم الاقتصادية والتصرف بنابل (FSEG Nabeul)",
+        "period": "2024 – 2027",
+        "location": "نابل، تونس",
+        "description": "طالب بالسنة الثالثة متخصص في ذكاء الأعمال وعلوم البيانات والإحصاء والتعلم الآلي. خبرة عملية متينة في Python وPandas وNumPy وSQL والتحليلات التنبؤية.",
+        "tags": [
+          "ذكاء الأعمال",
+          "علوم البيانات",
+          "التعلم الآلي",
+          "SQL & Python"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "بكالوريا في علوم الإعلامية – التقدير: قريب من الحسن",
+        "organization": "نابل، تونس",
+        "period": "2024",
+        "location": "تونس",
+        "description": "الحصول على شهادة البكالوريا مع مرتبة الشرف في شعبة علوم الإعلامية، مع التركيز على الخوارزميات وهياكل البيانات والبرمجة والرياضيات.",
+        "tags": [
+          "علوم الإعلامية",
+          "الخوارزميات",
+          "البرمجة",
+          "الرياضيات"
+        ]
+      }
+    ],
+    "spokenLanguages": [
+      {
+        "name": "العربية",
+        "level": "اللغة الأم"
+      },
+      {
+        "name": "الفرنسية",
+        "level": "متقدم"
+      },
+      {
+        "name": "الإنجليزية",
+        "level": "طليق"
+      },
+      {
+        "name": "الألمانية",
+        "level": "مبتدئ (قيد التعلّم)"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "تواصل معي",
+    "subheading": "هل لديك فكرة مشروع أو فرصة عمل أو أي استفسار؟ يسعدني تواصلك معي في أي وقت!",
+    "info": {
+      "locationLabel": "الموقع",
+      "locationValue": "نابل، تونس",
+      "emailLabel": "البريد الإلكتروني",
+      "phoneLabel": "الهاتف",
+      "portfolioLabel": "الموقع الشخصي"
+    },
+    "form": {
+      "namePlaceholder": "الاسم الكامل",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "messagePlaceholder": "رسالتك...",
+      "sendBtn": "إرسال الرسالة",
+      "sendingBtn": "جارٍ الإرسال...",
+      "successMsg": "تم إرسال الرسالة بنجاح! سأرد عليك في أقرب وقت.",
+      "errorMsg": "حدث خطأ أثناء الإرسال. يرجى المحاولة لاحقاً أو التواصل مباشرة."
+    }
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة.",
+    "designedBy": "تصميم وتطوير ياسين عزالدين"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "timeline": "Timeline",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Yassine Ezzedine",
+    "typed": [
+      "A <span class=\"hero__fullstack\">Full-Stack</span> Developer",
+      "A <span class=\"hero__frontend\">Data Science</span> Aspirant",
+      "An <span class=\"hero__backend\">AI</span> Aspirant",
+      "Your <span class=\"hero__next\">Next</span> Colleague"
+    ],
+    "paragraph": "I am a 3rd-year Business Intelligence (Informatique de Gestion) student at FSEG Nabeul, passionate about data analytics, machine learning, and predictive modeling. With hands-on experience in full-stack development and data science, I am seeking a PFE internship in Data Science or Artificial Intelligence.",
+    "connectBtn": "Let's Connect",
+    "viewWork": "Explore Work"
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "id": "phantom-stickers",
+        "title": "PHANTOM STICKERS",
+        "category": "Full-Stack E-Commerce",
+        "description": "Full-stack e-commerce platform built with React (Vite) and Supabase, featuring an administrative CRUD interface, secure authentication, and optimized Vercel deployment.",
+        "tags": [
+          "React",
+          "Vite",
+          "Supabase",
+          "JavaScript",
+          "Tailwind",
+          "Vercel"
+        ],
+        "demoUrl": "https://phantom-stickers.vercel.app",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "image": "./assets/images/phantom-stickers.png",
+        "video": "./assets/videos/phantomstickers.mp4"
+      },
+      {
+        "id": "bi-customer-segmentation",
+        "title": "BI CUSTOMER SEGMENTATION",
+        "category": "Data Science & BI",
+        "description": "Retail data analysis pipeline in Python utilizing RFM modeling, K-Means clustering, the Apriori association algorithm, and an interactive PyQt5 analytical dashboard.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "K-Means",
+          "Apriori",
+          "PyQt5"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "movie-recommendation",
+        "title": "MOVIE RECOMMENDATION SYSTEM",
+        "category": "Machine Learning",
+        "description": "Machine learning collaborative filtering algorithm developed using Python, Pandas, and Scikit-learn to deliver tailored movie suggestions based on user preference vectors.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "Collaborative Filtering",
+          "ML"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "moto-parts",
+        "title": "MOTO PARTS STOCK MANAGER",
+        "category": "Database & Desktop App",
+        "description": "Relational database inventory management system offering complete CRUD operations, real-time stock tracking, and supplier transaction logs.",
+        "tags": [
+          "MySQL",
+          "PL/SQL",
+          "Flutter",
+          "Database Design",
+          "CRUD"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/motoparts.mp4"
+      },
+      {
+        "id": "hotel-management",
+        "title": "HOTEL AMIRA",
+        "category": "Dynamic Web Application",
+        "description": "Dynamic web application dedicated to hotel booking, room availability tracking, and role-based user administration.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML5/CSS3"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/hotel-amira.mp4"
+      }
+    ],
+    "buttons": {
+      "demo": "Demo",
+      "code": "Code",
+      "viewAll": "View All Projects"
+    },
+    "yourProject": {
+      "title": "YOUR PROJECT",
+      "desc": "Are you looking for a dedicated and skilled professional to join your team or help with your next project? Look no further!",
+      "btn": "Contact Me"
+    }
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": {
+      "languagesWeb": "Languages & Web",
+      "databasesData": "Databases & Data",
+      "toolsDevops": "Tools & DevOps",
+      "certifications": "Certifications & Languages"
+    },
+    "certificationsTitle": "Certifications",
+    "spokenLanguagesTitle": "Spoken Languages"
+  },
+  "timeline": {
+    "heading": "Experience & Education",
+    "subheading": "My professional path, academic background, and milestones",
+    "tabs": {
+      "all": "All",
+      "experience": "Experience",
+      "education": "Education"
+    },
+    "items": [
+      {
+        "type": "experience",
+        "role": "Application Development Intern",
+        "organization": "Tunisie Telecom",
+        "period": "July 2026",
+        "location": "Nabeul, Tunisia",
+        "description": "Developed a task management application and a workflow management application using the MERN stack and MongoDB. Worked across application and database components in a local development environment, both independently and as part of a team.",
+        "tags": [
+          "MERN Stack",
+          "MongoDB",
+          "Workflow Management",
+          "Task Management"
+        ]
+      },
+      {
+        "type": "experience",
+        "role": "Full-Stack Freelance Developer",
+        "organization": "Client Projects",
+        "period": "2026",
+        "location": "Tunisia & Remote",
+        "description": "Delivered production systems including Phantom Stickers (e-commerce platform with MERN & Supabase), Moto Parts Stock Manager (Flutter & SQLite), Cafément (QR digital menu), and Hotel Amira.",
+        "tags": [
+          "MERN",
+          "Flutter",
+          "Supabase",
+          "SQLite",
+          "Production"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "Licence in Business Computing – Business Intelligence",
+        "organization": "FSEG Nabeul, Tunisia",
+        "period": "2024 – 2027",
+        "location": "Nabeul, Tunisia",
+        "description": "Third-year specialization in Business Intelligence, Data Science, Statistics, and Machine Learning. Hands-on experience with Python, Pandas, NumPy, SQL, and predictive analytics.",
+        "tags": [
+          "Business Intelligence",
+          "Data Science",
+          "Machine Learning",
+          "SQL & Python"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "Baccalaureate in Computer Science – Honors: Assez Bien",
+        "organization": "Nabeul, Tunisia",
+        "period": "2024",
+        "location": "Tunisia",
+        "description": "Graduated with honors in Computer Science, focusing on Algorithms, Data Structures, Programming, and Mathematics.",
+        "tags": [
+          "Computer Science",
+          "Algorithms",
+          "Programming",
+          "Mathematics"
+        ]
+      }
+    ],
+    "spokenLanguages": [
+      {
+        "name": "Arabic",
+        "level": "Native"
+      },
+      {
+        "name": "French",
+        "level": "Advanced"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "German",
+        "level": "Beginner (currently learning)"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "subheading": "Interested in working together or have any inquiries? Feel free to reach out!",
+    "info": {
+      "locationLabel": "Location",
+      "locationValue": "Nabeul, Tunisia",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "portfolioLabel": "Portfolio"
+    },
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "sendBtn": "Send Message",
+      "sendingBtn": "Sending...",
+      "successMsg": "Email successfully sent! I will respond promptly.",
+      "errorMsg": "Error sending email! Please try again or reach out directly."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "designedBy": "Designed & Developed by Yassine Ezzedine"
+  }
+}

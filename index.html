@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Yassine Ezzedine - Full-Stack Developer | Data Science & AI Aspirant" />
+    <title>Yassine Ezzedine - Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/logo2.svg" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script type="module" src="./javascript/index.js"></script>
+  </head>
+
+  <body>
+    <div id="loader" class="zoomIn">
+      <div class="spinner-box">
+        <div class="blue-orbit leo"></div>
+        <div class="green-orbit leo"></div>
+        <div class="red-orbit leo"></div>
+        <div class="white-orbit w1 leo"></div>
+        <div class="white-orbit w2 leo"></div>
+        <div class="white-orbit w3 leo"></div>
+      </div>
+    </div>
+
+    <div id="container">
+      <nav class="nav">
+        <div class="wrapper">
+          <section class="nav__mobile">
+            <a href="#hero"><img class="nav__img" src="./assets/images/logo2.svg" alt="Yassine Ezzedine Logo" /></a>
+            <aside class="nav__hamburger">
+              <i class="nav__hamburger-icon fa-solid fa-bars"></i>
+              <i class="nav__hamburger-close fa-solid fa-xmark"></i>
+            </aside>
+          </section>
+
+          <section class="nav__desktop">
+            <aside>
+              <a href="#hero"><img class="nav__img link hidden fromTop" src="./assets/images/logo2.svg" alt="logo" /></a>
+            </aside>
+            <section class="nav__desktop-links">
+              <a class="desktop-hero active-link link hidden fromTop" href="#hero">
+                <i class="fa-solid fa-house"></i> <span data-i18n="nav.home">Home</span>
+              </a>
+              <a class="desktop-projects link hidden fromTop" href="#projects">
+                <i class="fa-solid fa-diagram-project"></i> <span data-i18n="nav.projects">Projects</span>
+              </a>
+              <a class="desktop-skills link hidden fromTop" href="#skills">
+                <i class="fa-solid fa-code"></i> <span data-i18n="nav.skills">Skills</span>
+              </a>
+              <a class="desktop-timeline link hidden fromTop" href="#timeline">
+                <i class="fa-solid fa-timeline"></i> <span data-i18n="nav.timeline">Timeline</span>
+              </a>
+              <a class="desktop-contact link hidden fromTop" href="#contact">
+                <i class="fa-solid fa-address-card"></i> <span data-i18n="nav.contact">Contact</span>
+              </a>
+            </section>
+            
+            <div class="nav__desktop-right">
+              <article class="nav__desktop-socials">
+                <a
+                  class="link hidden fromTop"
+                  href="https://www.linkedin.com/in/yassin-ezzedine/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a
+                  class="link hidden fromTop"
+                  href="https://github.com/EzzedineYassine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Github"
+                  title="Github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  class="link hidden fromTop"
+                  href="https://www.facebook.com/yassin.ezzedin.14/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  title="Facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </article>
+
+              <!-- Language Switcher Desktop -->
+              <div id="lang-switcher-desktop" class="link hidden fromTop"></div>
+
+              <a class="link hidden fromTop" id="resume-link" href="./assets/cv.pdf" aria-label="Resume" title="Resume" target="_blank">
+                <button class="button button--secondary"><span data-i18n="nav.resume">Resume</span></button>
+              </a>
+            </div>
+          </section>
+        </div>
+      </nav>
+
+      <aside class="sidebar-mobile">
+        <ul class="sidebar-mobile__list">
+          <li>
+            <a class="sidebar-mobile__item mobile-hero active-link" href="#hero">
+              <i class="fa-solid fa-house"></i> <span data-i18n="nav.home">Home</span>
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item mobile-projects" href="#projects">
+              <i class="fa-solid fa-diagram-project"></i> <span data-i18n="nav.projects">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item mobile-skills" href="#skills">
+              <i class="fa-solid fa-code"></i> <span data-i18n="nav.skills">Skills</span>
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item mobile-timeline" href="#timeline">
+              <i class="fa-solid fa-timeline"></i> <span data-i18n="nav.timeline">Timeline</span>
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item mobile-contact" href="#contact">
+              <i class="fa-solid fa-address-card"></i> <span data-i18n="nav.contact">Contact</span>
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item" href="https://www.linkedin.com/in/yassin-ezzedine/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item" href="https://github.com/EzzedineYassine" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item" href="https://www.facebook.com/yassin.ezzedin.14/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a class="sidebar-mobile__item" id="sidebar-resume-link" href="./assets/cv.pdf" target="_blank">
+              <i class="fa-solid fa-file"></i> <span data-i18n="nav.resume">Resume</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Language Switcher Mobile -->
+        <div id="lang-switcher-mobile"></div>
+      </aside>
+
+      <main>
+        <section class="landing">
+          <img src="./assets/images/background.png" class="background" alt="" />
+          <img src="./assets/images/foreground.png" class="foreground" alt="" />
+
+          <div class="hero-container" id="hero">
+            <div class="wrapper">
+              <section class="hero">
+                <section class="hero__left">
+                  <section class="hero__heading-background prevent-select link hidden fromTop">
+                    <h1 class="hero__heading">
+                      <span data-i18n="hero.greeting">Hi, I'm</span> <span data-i18n="hero.name">Yassine Ezzedine</span>!
+                    </h1>
+                  </section>
+                  <div id="typed-strings">
+                    <p>A <span class="hero__fullstack">Full-Stack</span> Developer</p>
+                    <p>A <span class="hero__frontend">Data Science</span> Aspirant</p>
+                    <p>An <span class="hero__backend">AI</span> Aspirant</p>
+                    <p>Your <span class="hero__next">Next</span> Colleague</p>
+                  </div>
+                  <div class="typed-container prevent-select link hidden fromTop">
+                    <span id="typed"></span>
+                  </div>
+                  <p class="hero__paragraph link hidden fromTop" data-i18n="hero.paragraph">
+                    I am a 3rd-year Business Intelligence (Informatique de Gestion) student at FSEG Nabeul, passionate about data analytics and predictive modeling. With hands-on experience in full-stack development, machine learning, and business intelligence, I am seeking a PFE internship in Data Science or Artificial Intelligence.
+                  </p>
+                  <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="#contact" class="hero__contact-btn">
+                      <button class="button hero__button link hidden fromTop">
+                        <span data-i18n="hero.connectBtn">Let's Connect</span> <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </a>
+                    <a href="#projects" class="hero__contact-btn">
+                      <button class="button button--secondary link hidden fromTop">
+                        <span data-i18n="hero.viewWork">Explore Work</span>
+                      </button>
+                    </a>
+                  </div>
+                </section>
+                <article class="hero__right">
+                  <img class="hero__astronaut" src="./assets/images/astronaut.svg" alt="Astronaut illustration" />
+                </article>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section (Rendered dynamically via i18n dictionary) -->
+        <div class="container-projects">
+          <div class="wrapper">
+            <section class="projects" id="projects">
+              <h2 class="projects__heading" data-i18n="projects.heading">Projects</h2>
+              <div id="dynamic-projects-list">
+                <!-- Injected via i18n engine -->
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="container-skills">
+          <div class="wrapper">
+            <section class="skills" id="skills">
+              <h2 class="skills__heading" data-i18n="skills.heading">Skills</h2>
+
+              <section class="all-skills">
+                <!-- Languages & Web -->
+                <article class="all-skills__skill all-skills__skill--frontend hidden fromRight">
+                  <header class="all-skills__header">
+                    <h3 data-i18n="skills.categories.languagesWeb">Languages & Web</h3>
+                  </header>
+                  <section class="all-skills__icons">
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon python">
+                        <img src="./assets/images/icons/python.svg" alt="Python" loading="lazy" />
+                      </article>
+                      <p>Python</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon js">
+                        <img src="./assets/images/icons/javascript.svg" alt="JavaScript" loading="lazy" />
+                      </article>
+                      <p>JavaScript</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon react">
+                        <img src="./assets/images/icons/react.svg" alt="React" loading="lazy" />
+                      </article>
+                      <p>React (Vite)</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon node">
+                        <img src="./assets/images/icons/node-js.svg" alt="MERN Stack" loading="lazy" />
+                      </article>
+                      <p>MERN Stack</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon html5">
+                        <img src="./assets/images/icons/html.svg" alt="HTML5" loading="lazy" />
+                      </article>
+                      <p>HTML5</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon css">
+                        <img src="./assets/images/icons/css3.svg" alt="CSS3" loading="lazy" />
+                      </article>
+                      <p>CSS3</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon java" style="background-color: rgba(234, 45, 46, 0.2);">
+                        <i class="fa-brands fa-java" style="font-size: 32px; color: #ea2d2e;"></i>
+                      </article>
+                      <p>Java</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon c-lang" style="background-color: rgba(0, 89, 156, 0.2);">
+                        <i class="fa-solid fa-code" style="font-size: 26px; color: #6295cb;"></i>
+                      </article>
+                      <p>C</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon php" style="background-color: rgba(136, 146, 191, 0.2);">
+                        <i class="fa-brands fa-php" style="font-size: 32px; color: #8892bf;"></i>
+                      </article>
+                      <p>PHP</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon flutter" style="background-color: rgba(2, 86, 155, 0.2);">
+                        <i class="fa-solid fa-layer-group" style="font-size: 28px; color: #02569b;"></i>
+                      </article>
+                      <p>Flutter</p>
+                    </section>
+                  </section>
+                </article>
+
+                <!-- Databases & Data -->
+                <article class="all-skills__skill all-skills__skill--backend hidden fromRight">
+                  <header>
+                    <h3 data-i18n="skills.categories.databasesData">Databases & Data</h3>
+                  </header>
+                  <section class="all-skills__icons">
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon mysql">
+                        <img src="./assets/images/icons/mysql.svg" alt="MySQL" loading="lazy" />
+                      </article>
+                      <p>MySQL</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon mongodb">
+                        <img src="./assets/images/icons/mongodb.svg" alt="MongoDB" loading="lazy" />
+                      </article>
+                      <p>MongoDB</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon supabase" style="background-color: rgba(62, 207, 142, 0.2);">
+                        <i class="fa-solid fa-bolt" style="font-size: 28px; color: #3ecf8e;"></i>
+                      </article>
+                      <p>Supabase</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon plsql" style="background-color: rgba(248, 0, 0, 0.15);">
+                        <i class="fa-solid fa-database" style="font-size: 28px; color: #f80000;"></i>
+                      </article>
+                      <p>PL/SQL</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon pandas" style="background-color: rgba(19, 7, 85, 0.3);">
+                        <i class="fa-solid fa-chart-pie" style="font-size: 28px; color: #e70488;"></i>
+                      </article>
+                      <p>Pandas</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon scikit" style="background-color: rgba(248, 153, 29, 0.2);">
+                        <i class="fa-solid fa-brain" style="font-size: 28px; color: #f8991d;"></i>
+                      </article>
+                      <p>Scikit-Learn</p>
+                    </section>
+                  </section>
+                </article>
+
+                <!-- Tools, DevOps & Security -->
+                <article class="all-skills__skill all-skills__skill--other hidden fromRight">
+                  <header>
+                    <h3 data-i18n="skills.categories.toolsDevops">Tools & DevOps</h3>
+                  </header>
+                  <section class="all-skills__icons">
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon git">
+                        <img src="./assets/images/icons/git.svg" alt="Git" loading="lazy" />
+                      </article>
+                      <p>Git</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon github">
+                        <img src="./assets/images/icons/github.svg" alt="GitHub" loading="lazy" />
+                      </article>
+                      <p>GitHub</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon vercel" style="background-color: rgba(255, 255, 255, 0.15);">
+                        <i class="fa-solid fa-play" style="font-size: 24px; color: #ffffff; transform: rotate(-90deg);"></i>
+                      </article>
+                      <p>Vercel</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon netlify">
+                        <img src="./assets/images/icons/netlify.svg" alt="Netlify" loading="lazy" />
+                      </article>
+                      <p>Netlify</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon postman">
+                        <img src="./assets/images/icons/postman.svg" alt="Postman" loading="lazy" />
+                      </article>
+                      <p>Postman</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon linux" style="background-color: rgba(255, 219, 77, 0.2);">
+                        <i class="fa-brands fa-linux" style="font-size: 32px; color: #ffdb4d;"></i>
+                      </article>
+                      <p>Linux</p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon network" style="background-color: rgba(74, 169, 209, 0.2);">
+                        <i class="fa-solid fa-network-wired" style="font-size: 26px; color: #4aa9d1;"></i>
+                      </article>
+                      <p>Networks</p>
+                    </section>
+                  </section>
+                </article>
+
+                <!-- Certifications Card -->
+                <article class="all-skills__skill all-skills__skill--certifications hidden fromRight" style="flex-basis: 100%;">
+                  <header>
+                    <h3 data-i18n="skills.certificationsTitle">Certifications</h3>
+                  </header>
+                  <section class="all-skills__icons">
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon" style="background-color: rgba(66, 133, 244, 0.2);">
+                        <i class="fa-brands fa-google" style="font-size: 28px; color: #4285f4;"></i>
+                      </article>
+                      <p><strong>Google Advanced Data Analytics</strong></p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon" style="background-color: rgba(52, 168, 83, 0.2);">
+                        <i class="fa-solid fa-microchip" style="font-size: 28px; color: #34a853;"></i>
+                      </article>
+                      <p><strong>Google AI Essentials</strong></p>
+                    </section>
+                    <section class="all-skills__container">
+                      <article class="all-skills__icon" style="background-color: rgba(255, 153, 0, 0.2);">
+                        <i class="fa-brands fa-aws" style="font-size: 28px; color: #ff9900;"></i>
+                      </article>
+                      <p><strong>AWS Solutions Architect</strong></p>
+                    </section>
+                  </section>
+                </article>
+              </section>
+            </section>
+          </div>
+        </div>
+
+        <!-- Timeline Section (Experience & Education) -->
+        <div class="container-timeline" id="timeline">
+          <div class="wrapper">
+            <section class="timeline-section">
+              <h2 data-i18n="timeline.heading">Experience & Education</h2>
+              <p class="timeline__subheading" data-i18n="timeline.subheading">
+                My professional path, academic background, and milestones
+              </p>
+
+              <!-- Tabs -->
+              <div class="timeline__tabs">
+                <button class="timeline__tab active" data-filter="all" data-i18n="timeline.tabs.all">All</button>
+                <button class="timeline__tab" data-filter="experience" data-i18n="timeline.tabs.experience">Experience</button>
+                <button class="timeline__tab" data-filter="education" data-i18n="timeline.tabs.education">Education</button>
+              </div>
+
+              <!-- Timeline Track -->
+              <div class="timeline__track" id="timeline-track">
+                <!-- Dynamically populated by i18n -->
+              </div>
+
+              <!-- Spoken Languages -->
+              <div class="timeline__languages-section">
+                <div class="timeline__languages-title">
+                  <i class="fa-solid fa-language" style="color: #4aa9d1;"></i>
+                  <span data-i18n="skills.spokenLanguagesTitle">Spoken Languages</span>
+                </div>
+                <div class="timeline__languages-grid" id="timeline-languages-grid">
+                  <!-- Dynamically populated by i18n -->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="container-contact">
+          <div class="wrapper">
+            <section class="contact hidden" id="contact">
+              <h2 class="contact__heading" data-i18n="contact.heading">Get In Touch</h2>
+              <p class="contact__subheading" data-i18n="contact.subheading">
+                Interested in working together or have any inquiries? Feel free to reach out!
+              </p>
+
+              <!-- Direct Contact Information Cards -->
+              <div class="contact__info-grid">
+                <a href="mailto:yassineezzediney2g@gmail.com" class="contact-card">
+                  <div class="contact-card__icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="contact-card__details">
+                    <span class="contact-card__label" data-i18n="contact.info.emailLabel">Email</span>
+                    <span class="contact-card__value">yassineezzediney2g@gmail.com</span>
+                  </div>
+                </a>
+
+                <a href="tel:+21620208038" class="contact-card">
+                  <div class="contact-card__icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="contact-card__details">
+                    <span class="contact-card__label" data-i18n="contact.info.phoneLabel">Phone</span>
+                    <span class="contact-card__value">+216 20 208 038</span>
+                  </div>
+                </a>
+
+                <div class="contact-card">
+                  <div class="contact-card__icon"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="contact-card__details">
+                    <span class="contact-card__label" data-i18n="contact.info.locationLabel">Location</span>
+                    <span class="contact-card__value" data-i18n="contact.info.locationValue">Nabeul, Tunisia</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contact Form -->
+              <form class="contact__form" id="sendForm">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                  data-i18n-attr="placeholder:contact.form.namePlaceholder"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  data-i18n-attr="placeholder:contact.form.emailPlaceholder"
+                  required
+                />
+                <textarea
+                  id="message"
+                  name="message"
+                  cols="10"
+                  rows="6"
+                  placeholder="Your Message"
+                  data-i18n-attr="placeholder:contact.form.messagePlaceholder"
+                  required
+                ></textarea>
+                <input
+                  type="submit"
+                  id="sendButton"
+                  class="button button--contact"
+                  value="Send Message"
+                  data-i18n-attr="value:contact.form.sendBtn"
+                />
+                <aside id="form__info" class="hide">
+                  <p id="form__popup-txt" data-i18n="contact.form.successMsg">Email successfully sent!</p>
+                </aside>
+              </form>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <footer style="text-align: center; padding: 2.5rem var(--padding); background: #020517; border-top: 1px solid rgba(255, 255, 255, 0.05);">
+        <p style="color: #a8aed5; font-size: 0.9rem;">
+          &copy; 2026 Yassine Ezzedine. <span data-i18n="footer.rights">All rights reserved.</span>
+        </p>
+      </footer>
+
+      <script src="https://kit.fontawesome.com/8bb946769b.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </div>
+  </body>
+</html>

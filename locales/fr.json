@@ -1,0 +1,239 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "timeline": "Parcours",
+    "contact": "Contact",
+    "resume": "CV"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Yassine Ezzedine",
+    "typed": [
+      "Un Développeur <span class=\"hero__fullstack\">Full-Stack</span>",
+      "Un Aspirant en <span class=\"hero__frontend\">Data Science</span>",
+      "Un Aspirant en <span class=\"hero__backend\">IA</span>",
+      "Votre <span class=\"hero__next\">Futur</span> Collaborateur"
+    ],
+    "paragraph": "Étudiant en 3ème année de Licence en Informatique de Gestion (Business Intelligence) à la FSEG Nabeul, passionné par l'analyse de données, le machine learning et la modélisation prédictive. Fort d'une expérience pratique en développement full-stack et data science, je recherche un stage de fin d'études (PFE) en Data Science ou en Intelligence Artificielle.",
+    "connectBtn": "Me Contacter",
+    "viewWork": "Découvrir mes projets"
+  },
+  "projects": {
+    "heading": "Projets",
+    "items": [
+      {
+        "id": "phantom-stickers",
+        "title": "PHANTOM STICKERS",
+        "category": "E-Commerce Full-Stack",
+        "description": "Plateforme e-commerce full-stack développée avec React (Vite) et Supabase, dotée d'une interface d'administration CRUD sécurisée, authentification et déploiement optimisé sur Vercel.",
+        "tags": [
+          "React",
+          "Vite",
+          "Supabase",
+          "JavaScript",
+          "Tailwind",
+          "Vercel"
+        ],
+        "demoUrl": "https://phantom-stickers.vercel.app",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "image": "./assets/images/phantom-stickers.png",
+        "video": "./assets/videos/phantomstickers.mp4"
+      },
+      {
+        "id": "bi-customer-segmentation",
+        "title": "BI CUSTOMER SEGMENTATION",
+        "category": "Data Science & BI",
+        "description": "Pipeline d'analyse de données retail en Python utilisant la segmentation RFM, le clustering K-Means, l'algorithme d'association Apriori et un tableau de bord interactif PyQt5.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "K-Means",
+          "Apriori",
+          "PyQt5"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "movie-recommendation",
+        "title": "MOVIE RECOMMENDATION SYSTEM",
+        "category": "Machine Learning",
+        "description": "Algorithme de filtrage collaboratif par apprentissage automatique développé en Python avec Pandas et Scikit-learn pour fournir des recommandations cinématographiques sur mesure.",
+        "tags": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "Filtrage Collaboratif",
+          "ML"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine"
+      },
+      {
+        "id": "moto-parts",
+        "title": "MOTO PARTS STOCK MANAGER",
+        "category": "Base de Données & App Bureau",
+        "description": "Système de gestion d'inventaire basé sur une base de données relationnelle avec opérations CRUD complètes, suivi des stocks en temps réel et journalisation des transactions.",
+        "tags": [
+          "MySQL",
+          "PL/SQL",
+          "Flutter",
+          "Modélisation BD",
+          "CRUD"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/motoparts.mp4"
+      },
+      {
+        "id": "hotel-management",
+        "title": "HOTEL AMIRA",
+        "category": "Application Web Dynamique",
+        "description": "Application web dynamique dédiée à la réservation hôtelière, au suivi des disponibilités des chambres et à l'administration des utilisateurs basée sur les rôles.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML5/CSS3"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine",
+        "codeUrl": "https://github.com/EzzedineYassine",
+        "video": "./assets/videos/hotel-amira.mp4"
+      }
+    ],
+    "buttons": {
+      "demo": "Démo",
+      "code": "Code",
+      "viewAll": "Voir Tous Les Projets"
+    },
+    "yourProject": {
+      "title": "VOTRE PROJET",
+      "desc": "Vous recherchez un professionnel passionné et qualifié pour rejoindre votre équipe ou donner vie à votre prochain projet ? Ne cherchez plus !",
+      "btn": "Me Contacter"
+    }
+  },
+  "skills": {
+    "heading": "Compétences",
+    "categories": {
+      "languagesWeb": "Langages & Web",
+      "databasesData": "Bases de Données & Data",
+      "toolsDevops": "Outils & DevOps",
+      "certifications": "Certifications & Langues"
+    },
+    "certificationsTitle": "Certifications",
+    "spokenLanguagesTitle": "Langues Parlées"
+  },
+  "timeline": {
+    "heading": "Parcours & Expérience",
+    "subheading": "Mon parcours professionnel, académique et mes réalisations",
+    "tabs": {
+      "all": "Tous",
+      "experience": "Expérience",
+      "education": "Formation"
+    },
+    "items": [
+      {
+        "type": "experience",
+        "role": "Stagiaire en Développement d'Applications",
+        "organization": "Tunisie Telecom",
+        "period": "Juillet 2026",
+        "location": "Nabeul, Tunisie",
+        "description": "Conception et développement d'une application de gestion des tâches et d'une application de gestion de workflow avec la stack MERN et MongoDB. Intervention sur l'ensemble de l'architecture logicielle et de la base de données en autonomie et en équipe.",
+        "tags": [
+          "Stack MERN",
+          "MongoDB",
+          "Gestion de Workflow",
+          "Gestion des Tâches"
+        ]
+      },
+      {
+        "type": "experience",
+        "role": "Développeur Freelance Full-Stack",
+        "organization": "Projets Clients",
+        "period": "2026",
+        "location": "Tunisie & Distanciel",
+        "description": "Livraison de solutions en production dont Phantom Stickers (e-commerce MERN & Supabase), Moto Parts Stock Manager (Flutter & SQLite), Cafément (menu numérique QR Code), et Hôtel Amira.",
+        "tags": [
+          "MERN",
+          "Flutter",
+          "Supabase",
+          "SQLite",
+          "Production"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "Licence en Informatique de Gestion – Business Intelligence",
+        "organization": "FSEG Nabeul, Tunisie",
+        "period": "2024 – 2027",
+        "location": "Nabeul, Tunisie",
+        "description": "Étudiant en 3ème année spécialisé en Business Intelligence, Data Science, Statistiques et Machine Learning. Pratique approfondie de Python, Pandas, NumPy, SQL et analyse prédictive.",
+        "tags": [
+          "Business Intelligence",
+          "Data Science",
+          "Machine Learning",
+          "SQL & Python"
+        ]
+      },
+      {
+        "type": "education",
+        "role": "Baccalauréat en Sciences de l'Informatique – Mention : Assez Bien",
+        "organization": "Nabeul, Tunisie",
+        "period": "2024",
+        "location": "Tunisie",
+        "description": "Diplômé avec mention en Sciences de l'Informatique, avec focalisation sur l'algorithmique, les structures de données, la programmation et les mathématiques.",
+        "tags": [
+          "Sciences Informatiques",
+          "Algorithmique",
+          "Programmation",
+          "Mathématiques"
+        ]
+      }
+    ],
+    "spokenLanguages": [
+      {
+        "name": "Arabe",
+        "level": "Langue maternelle"
+      },
+      {
+        "name": "Français",
+        "level": "Avancé"
+      },
+      {
+        "name": "Anglais",
+        "level": "Courant"
+      },
+      {
+        "name": "Allemand",
+        "level": "Débutant (en apprentissage)"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contactez-Moi",
+    "subheading": "Un projet à concrétiser, une opportunité ou une question ? N'hésitez pas à m'écrire !",
+    "info": {
+      "locationLabel": "Localisation",
+      "locationValue": "Nabeul, Tunisie",
+      "emailLabel": "Email",
+      "phoneLabel": "Téléphone",
+      "portfolioLabel": "Portfolio"
+    },
+    "form": {
+      "namePlaceholder": "Votre Nom",
+      "emailPlaceholder": "Votre Email",
+      "messagePlaceholder": "Votre Message",
+      "sendBtn": "Envoyer le Message",
+      "sendingBtn": "Envoi en cours...",
+      "successMsg": "Message envoyé avec succès ! Je vous répondrai rapidement.",
+      "errorMsg": "Erreur lors de l'envoi. Veuillez réessayer ou me contacter directement."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "designedBy": "Conçu et développé par Yassine Ezzedine"
+  }
+}
