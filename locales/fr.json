@@ -24,6 +24,78 @@
     "heading": "Projets",
     "items": [
       {
+        "id": "attritex",
+        "title": "ATTRITEX",
+        "category": "Machine Learning & BI",
+        "description": "Plateforme de prédiction du churn client et de rétention du MRR/ARR. Associe des pipelines de machine learning reproductibles à des indicateurs d'impact financier et des plans d'action de fidélisation automatisés.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 19",
+          "TypeScript",
+          "Scikit-Learn",
+          "Tailwind CSS"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/Attritex",
+        "codeUrl": "https://github.com/EzzedineYassine/Attritex",
+        "image": "./assets/images/attritex.png",
+        "video": "./assets/videos/attritex.mp4"
+      },
+      {
+        "id": "aws-retail-datalake",
+        "title": "AWS RETAIL DATA LAKE",
+        "category": "Cloud & Data Engineering",
+        "description": "Data Lake retail serverless événementiel architecturé avec Terraform (IaC). Ingestion de flux POS sur S3 chiffré, validation Lambda avec protection anti-boucles, stockage Hive partitionné et requêtes analytiques Athena.",
+        "tags": [
+          "Terraform",
+          "AWS S3",
+          "AWS Lambda",
+          "AWS Glue",
+          "Amazon Athena",
+          "CloudWatch"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "codeUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "image": "./assets/images/aws-datalake.png",
+        "video": "./assets/videos/aws-datalake.mp4"
+      },
+      {
+        "id": "mini-soc",
+        "title": "MINI-SOC",
+        "category": "Cybersécurité & SIEM",
+        "description": "Laboratoire d'analyse de logs et de gestion des incidents de sécurité (SIEM). Normalisation d'événements Linux et Windows avec déduplication SHA-256, détections alignées MITRE ATT&CK et console d'investigation interactive.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 18",
+          "TypeScript",
+          "SQLite WAL",
+          "MITRE ATT&CK"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "codeUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "image": "./assets/images/mini-soc.png",
+        "video": "./assets/videos/mini-soc.mp4"
+      },
+      {
+        "id": "retailflow",
+        "title": "RETAILFLOW",
+        "category": "Data Engineering & BI",
+        "description": "Plateforme d'ingénierie de données retail. Ingestion de transactions par lots, nettoyage déterministe avec zone de quarantaine et disjoncteurs, entrepôt star schema Kimball et tableau de bord BI Streamlit.",
+        "tags": [
+          "Python",
+          "Streamlit",
+          "SQL",
+          "Kimball Star Schema",
+          "Data Quality Gates",
+          "Airflow"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "codeUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "image": "./assets/images/retailflow.png",
+        "video": "./assets/videos/retailflow.mp4"
+      },
+      {
         "id": "phantom-stickers",
         "title": "PHANTOM STICKERS",
         "category": "E-Commerce Full-Stack",

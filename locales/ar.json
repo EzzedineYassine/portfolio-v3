@@ -24,6 +24,78 @@
     "heading": "المشاريع",
     "items": [
       {
+        "id": "attritex",
+        "title": "ATTRITEX",
+        "category": "تعلم الآلي وذكاء الأعمال",
+        "description": "منصة متكاملة للتنبؤ بمغادرة العملاء وحماية الإيرادات المتكررة (ARR). تدمج خطوط تعلم الآلي مع مؤشرات الأثر المالي ودوافع التفسير وخطط عمل تفاعلية للاحتفاظ بالعملاء.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 19",
+          "TypeScript",
+          "Scikit-Learn",
+          "Tailwind CSS"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/Attritex",
+        "codeUrl": "https://github.com/EzzedineYassine/Attritex",
+        "image": "./assets/images/attritex.png",
+        "video": "./assets/videos/attritex.mp4"
+      },
+      {
+        "id": "aws-retail-datalake",
+        "title": "AWS RETAIL DATA LAKE",
+        "category": "هندسة السحابة والبيانات",
+        "description": "بحيرة بيانات سحابية لمعاملات التجزئة قائمة على الأحداث عبر Terraform. استيعاب ملفات نقاط البيع في S3 المشفر، والتحقق عبر AWS Lambda مع منع الحلقات التكرارية، وتقسيم Hive المنظم، واستعلامات Athena SQL.",
+        "tags": [
+          "Terraform",
+          "AWS S3",
+          "AWS Lambda",
+          "AWS Glue",
+          "Amazon Athena",
+          "CloudWatch"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "codeUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "image": "./assets/images/aws-datalake.png",
+        "video": "./assets/videos/aws-datalake.mp4"
+      },
+      {
+        "id": "mini-soc",
+        "title": "MINI-SOC",
+        "category": "الأمن السيبراني و SIEM",
+        "description": "مختبر دفاعي لتحليل السجلات والتحقيق في الحوادث السيبرانية. يوحد سجلات أمان Linux وWindows مع بصمة SHA-256 لمنع التكرار، ويطبق قواعد اكتشاف MITRE ATT&CK مع لوحة تفاعلية لفرز التنبيهات.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 18",
+          "TypeScript",
+          "SQLite WAL",
+          "MITRE ATT&CK"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "codeUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "image": "./assets/images/mini-soc.png",
+        "video": "./assets/videos/mini-soc.mp4"
+      },
+      {
+        "id": "retailflow",
+        "title": "RETAILFLOW",
+        "category": "هندسة البيانات وذكاء الأعمال",
+        "description": "منصة متطورة لهندسة بيانات التجزئة وذكاء الأعمال. استيعاب المعاملات دفعة واحدة، وتطبيق بوابات تنظيف وقرنطينة صارمة، وبناء مستودع بيانات بنموذج النجمة (Kimball Star Schema) ولوحة تحليلات Streamlit.",
+        "tags": [
+          "Python",
+          "Streamlit",
+          "SQL",
+          "Kimball Star Schema",
+          "Data Quality Gates",
+          "Airflow"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "codeUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "image": "./assets/images/retailflow.png",
+        "video": "./assets/videos/retailflow.mp4"
+      },
+      {
         "id": "phantom-stickers",
         "title": "PHANTOM STICKERS",
         "category": "متجر إلكتروني Full-Stack",

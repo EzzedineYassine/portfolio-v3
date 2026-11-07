@@ -20,6 +20,10 @@ A modern, high-performance, and responsive personal portfolio showcasing project
 - **📄 Dynamic Localized ATS Resumes:**
   - Integrated 1-page modern ATS-friendly CV automatically served in the active language (`cv-en.pdf`, `cv-fr.pdf`, `cv-de.pdf`, `cv-ar.pdf`).
 - **💻 Featured Project Showcase:**
+  - **Attritex:** Customer retention & ARR risk prediction platform with FastAPI, React 19, TypeScript, and Scikit-learn.
+  - **AWS Retail Data Lake:** Event-driven serverless data lake foundation with Terraform IaC, AWS Lambda, S3, Glue, and Athena.
+  - **MINI-SOC:** Defensive security log analysis, MITRE ATT&CK detection engine, and incident triage workbench with FastAPI and React.
+  - **RetailFlow:** Production-style retail data engineering platform with Kimball star schema warehouse, quarantine gates, and Streamlit.
   - **Phantom Stickers:** Full-stack e-commerce platform built with React, Vite, and Supabase with admin CRUD and authentication.
   - **BI Customer Segmentation:** Retail data analytics pipeline with RFM, K-Means clustering, Apriori association rules, and PyQt5.
   - **Movie Recommender System:** Content-based recommendation engine built with Scikit-learn, CountVectorizer, and Cosine Similarity.

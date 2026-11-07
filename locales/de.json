@@ -24,6 +24,78 @@
     "heading": "Projekte",
     "items": [
       {
+        "id": "attritex",
+        "title": "ATTRITEX",
+        "category": "Machine Learning & BI",
+        "description": "End-to-End-Plattform zur Kundenabwanderungs- und ARR-Risikovorhersage. Verbindet reproduzierbare Machine-Learning-Pipelines mit finanziellen Risikokennzahlen und automatisierten Kundenbindungsstrategien.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 19",
+          "TypeScript",
+          "Scikit-Learn",
+          "Tailwind CSS"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/Attritex",
+        "codeUrl": "https://github.com/EzzedineYassine/Attritex",
+        "image": "./assets/images/attritex.png",
+        "video": "./assets/videos/attritex.mp4"
+      },
+      {
+        "id": "aws-retail-datalake",
+        "title": "AWS RETAIL DATA LAKE",
+        "category": "Cloud & Data Engineering",
+        "description": "Ereignisgesteuertes Serverless-Data-Lake für den Einzelhandel mit modularem Terraform. Ingestion von Kassendaten in verschlüsseltes S3, Lambda-Validierung mit Schutz vor Endlosschleifen und Athena-SQL-Analytik.",
+        "tags": [
+          "Terraform",
+          "AWS S3",
+          "AWS Lambda",
+          "AWS Glue",
+          "Amazon Athena",
+          "CloudWatch"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "codeUrl": "https://github.com/EzzedineYassine/AWS-Retail-Data-Lake-Infrastructure-Pipeline-Verification-Console",
+        "image": "./assets/images/aws-datalake.png",
+        "video": "./assets/videos/aws-datalake.mp4"
+      },
+      {
+        "id": "mini-soc",
+        "title": "MINI-SOC",
+        "category": "Cybersicherheit & SIEM",
+        "description": "Defensives Sicherheits-Log-Analyse- und Vorfalluntersuchungs-Labor. Normalisiert Linux- und Windows-Sicherheitsereignisse mit SHA-256-Deduplizierung, führt MITRE ATT&CK-Erkennungsregeln aus und bietet eine Triage-Konsole.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "React 18",
+          "TypeScript",
+          "SQLite WAL",
+          "MITRE ATT&CK"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "codeUrl": "https://github.com/EzzedineYassine/MINI-SOC",
+        "image": "./assets/images/mini-soc.png",
+        "video": "./assets/videos/mini-soc.mp4"
+      },
+      {
+        "id": "retailflow",
+        "title": "RETAILFLOW",
+        "category": "Data Engineering & BI",
+        "description": "Retail-Data-Engineering-Plattform im Produktionsstil. Batch-Transaktions-Ingestion, deterministische Bereinigung mit Quarantäne-Gates, idempotentes Kimball-Sternschema-Warehouse und Streamlit-BI-Workbench.",
+        "tags": [
+          "Python",
+          "Streamlit",
+          "SQL",
+          "Kimball Star Schema",
+          "Data Quality Gates",
+          "Airflow"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "codeUrl": "https://github.com/EzzedineYassine/RetailFlow",
+        "image": "./assets/images/retailflow.png",
+        "video": "./assets/videos/retailflow.mp4"
+      },
+      {
         "id": "phantom-stickers",
         "title": "PHANTOM STICKERS",
         "category": "Full-Stack E-Commerce",
