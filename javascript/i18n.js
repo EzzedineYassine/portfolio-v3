@@ -10,6 +10,7 @@
    ========================================================================== */
 
 import { typeAnimation } from './typeAnimation.js';
+import { setupMobileVideoAutoplay } from './videoAutoplay.js';
 
 export const SUPPORTED_LOCALES = ['en', 'fr', 'ar', 'de'];
 export const DEFAULT_LOCALE = 'en';
@@ -143,10 +144,13 @@ function renderProjects(dict) {
               <div class="project-card__browser-url">${project.title} - Live Demo</div>
             </div>
             <div class="project-card__image-wrap">
-              <video class="project-card__img" autoplay loop muted playsinline preload="metadata" disableRemotePlayback>
+              <video class="project-card__img" autoplay loop muted playsinline webkit-playsinline preload="auto" poster="${project.image || ''}" disableRemotePlayback>
                 <source src="${project.video}" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
+              <div class="project-card__play-badge">
+                <i class="fa-solid fa-play"></i>
+              </div>
             </div>
           </div>
         `;
@@ -233,6 +237,7 @@ function renderProjects(dict) {
   `;
 
   container.innerHTML = projectsHtml + yourProjectHtml;
+  setupMobileVideoAutoplay();
 }
 
 /**
