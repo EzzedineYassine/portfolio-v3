@@ -1,10 +1,39 @@
 #loader {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgb(2, 7, 28);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99999999;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  animation: autoDismissLoader 0.4s ease 0.6s forwards;
+}
+
+#loader.fade-out-loader {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+@keyframes autoDismissLoader {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: none;
+  }
 }
 
 

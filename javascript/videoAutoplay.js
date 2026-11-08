@@ -1,19 +1,22 @@
 /**
- * Video Autoplay & Touch-Unblock Engine for Mobile & Desktop
- * Ensures videos autoplay inline without requiring explicit manual play buttons,
- * handles iOS Low Power Mode, battery savers, and dynamically created DOM nodes.
+ * Lightweight, Mobile-Optimized Video Autoplay Engine
+ * - Zero layout thrashing: Uses IntersectionObserver exclusively
+ * - Low-power & battery-saver safe: Only plays the currently visible video
+ * - User-interaction unblocker runs ONCE, preventing CPU/GPU overloading
  */
 
 let observerInstance = null;
+let isUnlocked = false;
 
 export function setupMobileVideoAutoplay() {
   const videoWraps = document.querySelectorAll('.project-card__image-wrap');
+  if (!videoWraps.length) return;
 
   videoWraps.forEach((wrap) => {
     const video = wrap.querySelector('video');
     if (!video) return;
 
-    // 1. Strict mobile inline attributes and DOM properties (iOS WebKit & Android Chrome)
+    // 1. Strict mobile inline attributes and DOM properties (iOS Safari & Android Chrome)
     video.muted = true;
     video.defaultMuted = true;
     video.playsInline = true;
@@ -32,22 +35,23 @@ export function setupMobileVideoAutoplay() {
       wrap.classList.add('is-paused');
     };
 
-    // Attach status listeners if not already bound
     if (!video._hasAutoplayListeners) {
       video._hasAutoplayListeners = true;
-      video.addEventListener('play', markPlaying);
-      video.addEventListener('playing', markPlaying);
-      video.addEventListener('pause', markPaused);
+
+      video.addEventListener('play', markPlaying, { passive: true });
+      video.addEventListener('playing', markPlaying, { passive: true });
+      video.addEventListener('pause', markPaused, { passive: true });
       video.addEventListener('ended', () => {
         video.currentTime = 0;
-        video.play().catch(() => {});
-      });
+        safePlay(video);
+      }, { passive: true });
 
-      // Tap / Click anywhere on card to toggle play/pause effortlessly
-      wrap.addEventListener('click', () => {
+      // Tap / Click anywhere on the card to toggle play/pause
+      wrap.addEventListener('click', (e) => {
+        e.stopPropagation();
         if (video.paused) {
           video.muted = true;
-          video.play().catch(() => {});
+          safePlay(video);
         } else {
           video.pause();
         }
@@ -61,7 +65,7 @@ export function setupMobileVideoAutoplay() {
     }
   });
 
-  // 2. IntersectionObserver: Autoplay when scrolled into viewport, pause when offscreen
+  // 2. Off-main-thread IntersectionObserver for silky smooth viewport playback
   if ('IntersectionObserver' in window) {
     if (observerInstance) {
       observerInstance.disconnect();
@@ -72,22 +76,18 @@ export function setupMobileVideoAutoplay() {
         entries.forEach((entry) => {
           const video = entry.target;
           if (entry.isIntersecting) {
-            video.muted = true;
-            const playPromise = video.play();
-            if (playPromise !== undefined) {
-              playPromise.catch(() => {
-                // Autoplay may be deferred until first user touch
-              });
-            }
+            safePlay(video);
           } else {
-            video.pause();
+            if (!video.paused) {
+              video.pause();
+            }
           }
         });
       },
       {
         root: null,
-        rootMargin: '120px 0px 120px 0px', // Pre-trigger slightly before entering viewport
-        threshold: 0.1
+        rootMargin: '60px 0px 60px 0px',
+        threshold: 0.2
       }
     );
 
@@ -96,20 +96,40 @@ export function setupMobileVideoAutoplay() {
     });
   }
 
-  // 3. User Gesture Fallback (iOS Low Power Mode / Android Data Saver)
-  // The first time the user touches or scrolls on mobile, immediately start visible videos
-  const unlockVideos = () => {
-    document.querySelectorAll('.project-card__image-wrap video').forEach((vid) => {
-      const rect = vid.getBoundingClientRect();
-      const inView = rect.top < window.innerHeight + 150 && rect.bottom > -150;
-      if (inView && vid.paused) {
-        vid.muted = true;
-        vid.play().catch(() => {});
-      }
-    });
-  };
+  // 3. User Gesture Fallback - Runs ONCE on first interaction, NEVER floods the main thread
+  if (!isUnlocked) {
+    const unlockOnFirstTouch = () => {
+      if (isUnlocked) return;
+      isUnlocked = true;
 
-  ['touchstart', 'touchend', 'pointerdown', 'scroll'].forEach((event) => {
-    window.addEventListener(event, unlockVideos, { passive: true });
-  });
+      // Unblock only intersecting videos
+      document.querySelectorAll('.project-card__image-wrap video').forEach((vid) => {
+        const rect = vid.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0 && vid.paused) {
+          safePlay(vid);
+        }
+      });
+
+      window.removeEventListener('touchstart', unlockOnFirstTouch);
+      window.removeEventListener('touchend', unlockOnFirstTouch);
+      window.removeEventListener('pointerdown', unlockOnFirstTouch);
+    };
+
+    window.addEventListener('touchstart', unlockOnFirstTouch, { passive: true, once: true });
+    window.addEventListener('touchend', unlockOnFirstTouch, { passive: true, once: true });
+    window.addEventListener('pointerdown', unlockOnFirstTouch, { passive: true, once: true });
+  }
+}
+
+function safePlay(video) {
+  if (!video) return;
+  video.muted = true;
+  if (!video.paused) return; // Already playing
+
+  const playPromise = video.play();
+  if (playPromise !== undefined) {
+    playPromise.catch(() => {
+      // Autoplay silently deferred until user interacts; handled by UI play badge
+    });
+  }
 }

@@ -32,7 +32,7 @@ let typedInstance = null;
 async function loadDictionary(lang) {
   if (dictionaries[lang]) return dictionaries[lang];
   try {
-    const response = await fetch(`./locales/${lang}.json?v=${Date.now()}`);
+    const response = await fetch(`./locales/${lang}.json?v=3.2${Date.now()}`);
     if (!response.ok) throw new Error(`Could not load ${lang}.json`);
     const data = await response.json();
     dictionaries[lang] = data;
