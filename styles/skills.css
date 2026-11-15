@@ -279,3 +279,17 @@
   }
 }
 
+
+.all-skills__skill--certifications .cert-link-icon {
+  font-size: 11px;
+  opacity: 0.65;
+  margin-left: 2px;
+  vertical-align: middle;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.all-skills__skill--certifications .all-skills__container:hover .cert-link-icon {
+  opacity: 1;
+  transform: translate(2px, -2px);
+  color: #60a5fa;
+}
