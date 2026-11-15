@@ -24,6 +24,25 @@
     "heading": "المشاريع",
     "items": [
       {
+        "id": "dtn-audio",
+        "title": "D.TN — منصة تجارة الموسيقى وترخيص الإيقاعات",
+        "category": "تطوير الويب وهندسة الصوت",
+        "description": "منصة تجارية متكاملة لترخيص الموسيقى وهندسة الصوت مبنية بواسطة Next.js وSupabase. تتميز بمشغل صوتي تفاعلي دائم بتقنية Web Audio API مع تحكم في شكل الموجة، وخزينة مشفرة لملفات WAV وStems بروابط موقعة لمدة 5 دقائق، مع دعم كامل للغة العربية (RTL).",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Web Audio API",
+          "Zod",
+          "Vitest"
+        ],
+        "demoUrl": "https://dark-tn.vercel.app",
+        "codeUrl": "https://github.com/EzzedineYassine/DARK.TN",
+        "image": "./assets/images/dtn-audio.png",
+        "video": "./assets/videos/dtn-audio.mp4"
+      },
+      {
         "id": "attritex",
         "title": "ATTRITEX",
         "category": "تعلم الآلي وذكاء الأعمال",

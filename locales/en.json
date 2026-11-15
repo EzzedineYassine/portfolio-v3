@@ -24,6 +24,25 @@
     "heading": "Projects",
     "items": [
       {
+        "id": "dtn-audio",
+        "title": "D.TN — MUSIC E-COMMERCE & BEAT LICENSING",
+        "category": "Full-Stack & Audio Architecture",
+        "description": "Commercial digital music marketplace & audio engineering platform built with Next.js and Supabase. Features a persistent Web Audio API player with waveform scrubbing, cryptographic vault for 24-bit WAVs/stems with 5-minute signed URLs, tamper-proof server price recomputation, and trilingual native RTL support.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS",
+          "Web Audio API",
+          "Zod",
+          "Vitest"
+        ],
+        "demoUrl": "https://dark-tn.vercel.app",
+        "codeUrl": "https://github.com/EzzedineYassine/DARK.TN",
+        "image": "./assets/images/dtn-audio.png",
+        "video": "./assets/videos/dtn-audio.mp4"
+      },
+      {
         "id": "attritex",
         "title": "ATTRITEX",
         "category": "Machine Learning & BI",
