@@ -2,11 +2,12 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
+<title>ياسين عزالدين — السيرة الذاتية</title>
 <style>
 
 @page {
     size: A4;
-    margin: 10mm 14mm 10mm 14mm;
+    margin: 8mm 12mm 8mm 12mm;
 }
 * {
     box-sizing: border-box;
@@ -16,56 +17,55 @@ body {
     color: #111827;
     margin: 0;
     padding: 0;
-    font-size: 8.8pt;
-    line-height: 1.32;
+    font-size: 8.2pt;
+    line-height: 1.25;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
 }
 .header {
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 .name {
-    font-size: 21pt;
+    font-size: 19pt;
     font-weight: 700;
     letter-spacing: 0.8px;
-    margin: 0 0 2px 0;
+    margin: 0 0 1px 0;
     color: #0b192c;
-    text-transform: none;
 }
 .title {
-    font-size: 10.5pt;
+    font-size: 9.8pt;
     font-weight: 600;
     color: #1f2937;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     letter-spacing: 0.3px;
 }
 .contact-line {
-    font-size: 8.5pt;
+    font-size: 8pt;
     color: #374151;
-    line-height: 1.4;
+    line-height: 1.35;
 }
 .contact-line a {
     color: #183a5a;
     text-decoration: none;
 }
 .section-header {
-    font-size: 9.8pt;
+    font-size: 9.2pt;
     font-weight: 700;
     color: #183a5a;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     border-bottom: 0.8px solid #183a5a;
-    padding-bottom: 1.5px;
-    margin-top: 7px;
-    margin-bottom: 4px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 .entry-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-size: 8.8pt;
-    margin-top: 3.5px;
+    font-size: 8.2pt;
+    margin-top: 2.5px;
     margin-bottom: 1px;
 }
 .entry-title {
@@ -76,44 +76,47 @@ body {
     font-style: italic;
     color: #374151;
     white-space: nowrap;
-    font-size: 8.5pt;
+    font-size: 7.8pt;
 }
 .entry-sub {
     font-style: italic;
     color: #4b5563;
-    font-size: 8.4pt;
-    margin-bottom: 2px;
+    font-size: 7.8pt;
+    margin-bottom: 1px;
 }
 ul.bullets {
-    margin: 1.5px 0 3px 0;
-    padding-left: 14px;
+    margin: 1px 0 2px 0;
+    padding-left: 13px;
     list-style-type: square;
 }
 ul.bullets li {
-    margin-bottom: 1.5px;
-    font-size: 8.6pt;
-    line-height: 1.28;
+    margin-bottom: 1px;
+    font-size: 8pt;
+    line-height: 1.22;
     color: #1f2937;
 }
 .skills-line {
-    margin: 2px 0;
-    font-size: 8.6pt;
-    line-height: 1.32;
+    margin: 1.5px 0;
+    font-size: 8pt;
+    line-height: 1.24;
 }
 .skills-line strong {
     font-weight: 700;
     color: #111827;
 }
-.cert-item {
-    margin: 2px 0;
-    font-size: 8.6pt;
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5px 10px;
+    margin-top: 1px;
+    font-size: 7.9pt;
 }
 .cert-item strong {
     font-weight: 700;
 }
 .languages-row {
-    margin-top: 2px;
-    font-size: 8.8pt;
+    margin-top: 1.5px;
+    font-size: 8pt;
 }
 .languages-row strong {
     font-weight: 700;
@@ -139,26 +142,26 @@ body {
 .entry-sub {
     font-style: italic;
     color: #4b5563;
-    font-size: 8.4pt;
-    margin-bottom: 2px;
+    font-size: 7.8pt;
+    margin-bottom: 1px;
 }
 ul.bullets {
     padding-left: 0;
-    padding-right: 18px;
+    padding-right: 16px;
     list-style-type: square;
     text-align: right;
 }
 ul.bullets li {
     text-align: right;
-    margin-bottom: 2px;
-    line-height: 1.34;
+    margin-bottom: 1px;
+    line-height: 1.25;
 }
 .skills-row {
     display: flex;
     align-items: baseline;
-    margin: 2.5px 0;
-    font-size: 8.6pt;
-    line-height: 1.32;
+    margin: 1.5px 0;
+    font-size: 8pt;
+    line-height: 1.24;
 }
 .skills-cat {
     font-weight: 700;
@@ -172,21 +175,21 @@ ul.bullets li {
     text-align: left;
     flex-grow: 1;
 }
-.cert-row {
+.cert-grid-rtl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5px 10px;
+    margin-top: 1px;
+    font-size: 7.9pt;
     direction: ltr;
-    text-align: right;
-    margin: 2.5px 0;
-    font-size: 8.6pt;
+    text-align: left;
 }
-.cert-row strong {
-    font-weight: 700;
-}
-.languages-row {
+.languages-row-rtl {
     display: flex;
     justify-content: flex-start;
-    gap: 24px;
-    margin-top: 2px;
-    font-size: 8.8pt;
+    gap: 20px;
+    margin-top: 1.5px;
+    font-size: 8pt;
     text-align: right;
 }
 
@@ -195,10 +198,10 @@ ul.bullets li {
 <body>
 
 <div class="header">
-    <div class="name">يسين عزالدين</div>
-    <div class="title">مرشح لمشروع تخرج (PFE) في علوم البيانات والذكاء الاصطناعي</div>
+    <div class="name">ياسين عزالدين</div>
+    <div class="title">مهندس برمجيات وتطوير شامل (Full-Stack) ومتخصص في علوم البيانات والذكاء الاصطناعي</div>
     <div class="contact-line">
-        نابل، تونس &nbsp;|&nbsp; <span dir="ltr">+216 20 208 038</span> &nbsp;|&nbsp; <a href="mailto:yassineezzediney2g@gmail.com">yassineezzediney2g@gmail.com</a>
+        نابل، تونس &nbsp;|&nbsp; 208 208 20 216+ &nbsp;|&nbsp; <a href="mailto:yassineezzediney2g@gmail.com">yassineezzediney2g@gmail.com</a>
     </div>
     <div class="contact-line" dir="ltr">
         <a href="https://linkedin.com/in/yassin-ezzedine/">linkedin.com/in/yassin-ezzedine/</a> &nbsp;|&nbsp;
@@ -207,95 +210,100 @@ ul.bullets li {
     </div>
 </div>
 
-<div class="section-header">الملف التعريفي</div>
-<div style="font-size: 8.6pt; line-height: 1.36; margin: 2px 0 4px 0;">
-طالب في السنة الثالثة إجازة في الإعلامية الموجهة للتصرف (Business Computing) تخصص ذكاء الأعمال (Business Intelligence)، أبحث عن تدريب مشروع تخرج (PFE) في مجال علوم البيانات أو الذكاء الاصطناعي. خبرة عملية متينة في Python وPandas وNumPy وSQL والإحصاء وتنظيف البيانات والتعلم الآلي، مدعومة بتدريب ميداني في شركة اتصالات تونس (Tunisie Telecom) ومشاريع تجارية ناجحة للعملاء في عام 2026.
+<div class="section-header">الملف المهني</div>
+<div style="font-size: 8pt; line-height: 1.25; margin: 1.5px 0 3px 0;">
+طالب بالسنة الثالثة إجازة في إعلامية التصرف – اختصاص ذكاء الأعمال (FSEG نابل)، أبحث عن تدريب مشروع تخرج (PFE) في علوم البيانات، الذكاء الاصطناعي، أو هندسة البرمجيات الشاملة. أمتلك خبرة عملية في بناء تطبيقات ويب ومنصات بيانات احترافية باستخدام React وNext.js وFastAPI وPython وSQL وSupabase، مدعومة بتدريب هندسي في اتصالات تونس لتطوير نظام إدارة الموارد البشرية، ومشاريع تجارية ناجحة من بينها D.TN Audio Architecture.
 </div>
 
-<div class="section-header">التعليم</div>
+<div class="section-header">التعليم والتكوين الأكاديمي</div>
 <div class="entry-header">
-    <span class="entry-title">الإجازة في إعلامية التصرف – ذكاء الأعمال (Business Intelligence)</span>
+    <span class="entry-title">إجازة في إعلامية التصرف – ذكاء الأعمال (Business Intelligence)</span>
     <span class="entry-date" dir="ltr">2024 – 2027</span>
 </div>
-<div class="entry-sub">كلية العلوم الاقتصادية والتصرف بنابل (FSEG Nabeul)، تونس</div>
+<div class="entry-sub">كلية العلوم الاقتصادية والتصرف بنابل، تونس</div>
 
 <div class="entry-header">
-    <span class="entry-title">بكالوريا في علوم الإعلامية – التقدير: قريب من الحسن</span>
+    <span class="entry-title">بكالوريا في علوم الإعلامية – الملاحظة: قريب من الحسن</span>
     <span class="entry-date" dir="ltr">2024</span>
 </div>
-<div class="entry-sub">نابل، تونس</div>
+<div class="entry-sub">المعهد الثانوي بنابل، تونس</div>
 
 <div class="section-header">الخبرة المهنية</div>
 <div class="entry-header">
-    <span class="entry-title">اتصالات تونس (Tunisie Telecom) – متدرب في تطوير التطبيقات</span>
-    <span class="entry-date">جويلية 2026</span>
+    <span class="entry-title">اتصالات تونس (Tunisie Telecom) – متدرب في هندسة البرمجيات</span>
+    <span class="entry-date" dir="ltr">جويلية 2026</span>
 </div>
 <div class="entry-sub">نابل، تونس</div>
 <ul class="bullets">
-    <li>&rlm;تطوير تطبيق لإدارة المهام وتطبيق لإدارة مسارات العمل (Workflow Management) باستخدام حزمة MERN وقاعدة بيانات MongoDB.</li>
-    <li>&rlm;العمل على مكونات التطبيق وقواعد البيانات في بيئة تطوير محلية، بشكل مستقل وضمن فريق العمل.</li>
+    <li>&rlm;<strong>نظام إدارة الموارد البشرية (HR Management System):</strong> تصميم وتطوير منصة شاملة لإدارة شؤون الموظفين والإجازات تضم 11 وحدة تشغيلية (ملف الموظف، أرصدة العطل، دورة حياة الطلبات، مسار المصادقة الثنائي، طباعة التقارير) باستخدام Python وSQLite وواجهة تفاعلية.</li>
+    <li>&rlm;تطوير تطبيقات داخلية لأتمتة سير العمل وإدارة المهام باستخدام Python وJava وMERN Stack مع MongoDB.&rlm;</li>
 </ul>
 
 <div class="entry-header">
-    <span class="entry-title">مشاريع تجارية للعملاء (Paid Client Projects)</span>
+    <span class="entry-title">مشاريع العملاء والعمل الحر</span>
     <span class="entry-date" dir="ltr">2026</span>
 </div>
 <ul class="bullets">
-    <li>&rlm;<strong>Phantom Stickers</strong> | MERN, Supabase : منصة تجارة إلكترونية متكاملة مع مصادقة المشرف، لوحة تحكم، إدارة كاملة للمنتجات ونشر مباشر على Vercel.&rlm;</li>
-    <li>&rlm;<strong>Moto Parts Stock Manager</strong> | Flutter, SQLite, Supabase : تطوير وتسليم تطبيق لإدارة مخزون ومبيعات قطع غيار الدراجات النارية، يدعم الهاتف والكمبيوتر، تنبيهات المخزون، تخزين محلي بـ SQLite ومزامنة عبر Supabase.&rlm;</li>
-    <li>&rlm;<strong>Cafément</strong> | Web : قائمة طعام رقمية عبر رمز الاستجابة السريعة (QR Code) مع وصول مباشر لتقييمات Google؛ طُورت وخُصصت بالكامل للعميل.</li>
-    <li>&rlm;<strong>Hotel Amira</strong> | Frontend Web : تطوير الواجهة الأمامية لموقع فندقي احترافي وفقاً لمتطلبات وتصميم العميل.</li>
+    <li>&rlm;<strong>D.TN Audio Architecture:</strong> منصة تجارة إلكترونية صوتية وترخيص إيقاعات موسيقية مبنية بـ Next.js وTypeScript وSupabase PostgreSQL مع Web Audio API ودفع آمن ودعم ثلاثي اللغات مع محاذاة RTL كاملة.&rlm;</li>
+    <li>&rlm;<strong>Phantom Stickers:</strong> تطبيق تجارة إلكترونية كامل بـ MERN Stack وSupabase ولوحة تحكم للمشرف ونشر على Vercel.&rlm;</li>
+    <li>&rlm;<strong>Moto Parts Stock Manager:</strong> تطبيق إدارة مخزون وبيع قطع الدراجات (هاتف وحاسوب) بـ Flutter وSQLite وSupabase.&rlm;</li>
 </ul>
 
-<div class="section-header">المشاريع الشخصية</div>
+<div class="section-header">المشاريع التقنية المميزة</div>
 <div class="entry-header">
-    <span class="entry-title">تقسيم العملاء وتحليل سلة المشتريات (Customer Segmentation & Market Basket Analysis)</span>
-    <span class="entry-date" dir="ltr">2025</span>
+    <span class="entry-title">Attritex – التنبؤ بمخاطر خسارة العملاء والإيرادات</span>
+    <span class="entry-date" dir="ltr">FastAPI, React 19, TypeScript, Scikit-learn</span>
 </div>
-<div class="entry-sub" dir="ltr" style="text-align: right;">Python, Pandas, NumPy, Scikit-learn, MLxtend, PyQt5</div>
 <ul class="bullets">
-    <li>&rlm;تنظيف البيانات المعاملاتية، إجراء تحليل RFM، تطبيق خوارزمية K-Means لتقسيم العملاء، واستخدام خوارزمية Apriori لاستخراج قواعد الارتباط الأكثر تكراراً.</li>
-    <li>&rlm;بناء واجهة رسومية تفاعلية باستخدام PyQt5 لعرض النتائج والتحليلات البيانية.</li>
+    <li>&rlm;منصة ذكاء أعمال وتعلّم آلي لتقدير الإيرادات المعرضة للخطر مع خطط استباقية للاحتفاظ بالعملاء (44 اختبار وحدات بـ Pytest).&rlm;</li>
 </ul>
 
 <div class="entry-header">
-    <span class="entry-title">نظام توصية الأفلام (Movie Recommender System)</span>
-    <span class="entry-date"></span>
+    <span class="entry-title">AWS Retail Data Lake &amp; Pipeline</span>
+    <span class="entry-date" dir="ltr">Terraform (IaC), AWS S3, Lambda, Glue, Athena</span>
 </div>
-<div class="entry-sub" dir="ltr" style="text-align: right;">Python, Pandas, Scikit-learn, Streamlit</div>
 <ul class="bullets">
-    <li>&rlm;بناء تطبيق تفاعلي لنظام التوصيات باستخدام Pandas وScikit-learn مع CountVectorizer وCosine Similarity للتوصية المبنية على محتوى النصوص.</li>
+    <li>&rlm;بحيرة بيانات سحابية متوافقة مع ممارسات IaC بـ Terraform، عزل البيانات المعيبة، وفهرسة Glue واستعلام Athena SQL.&rlm;</li>
+</ul>
+
+<div class="entry-header">
+    <span class="entry-title">تقسيم العملاء وتحليل سلة المشتريات</span>
+    <span class="entry-date" dir="ltr">Python, Scikit-learn, PyQt5</span>
+</div>
+<ul class="bullets">
+    <li>&rlm;تنظيف البيانات، تطبيق تحليل RFM وخوارزمية K-Means للتجزئة وقواعد Apriori مع واجهة مكتبية تفاعلية بـ PyQt5.&rlm;</li>
 </ul>
 
 <div class="section-header">المهارات التقنية</div>
 <div class="skills-row">
     <span class="skills-cat">علوم البيانات والذكاء الاصطناعي :</span>
-    <span class="skills-items">Python, Pandas, NumPy, Scikit-learn, Statistics, Data Cleaning, EDA, Machine Learning, RFM Analysis, K-Means, Apriori</span>
+    <span class="skills-items">Python, Pandas, NumPy, Scikit-learn, Statistics, Data Cleaning, EDA, Machine Learning, RFM, K-Means, Apriori</span>
 </div>
 <div class="skills-row">
-    <span class="skills-cat">لغات البرمجة :</span>
-    <span class="skills-items">Python, Java, PHP, JavaScript, C, SQL, PL/SQL</span>
+    <span class="skills-cat">الويب والتطوير الشامل :</span>
+    <span class="skills-items">React, Next.js, TypeScript, JavaScript, Node.js, Express.js, FastAPI, REST APIs, HTML5, CSS3, Tailwind CSS, Flutter</span>
 </div>
 <div class="skills-row">
-    <span class="skills-cat">تطوير الويب والتطبيقات :</span>
-    <span class="skills-items">React, Node.js, Express.js, MERN Stack, REST APIs, HTML/CSS, Flutter</span>
-</div>
-<div class="skills-row">
-    <span class="skills-cat">قواعد البيانات والأدوات :</span>
-    <span class="skills-items">MongoDB, Supabase, SQLite, Git, GitHub, Linux, Jupyter, Streamlit, PyQt5, Vercel</span>
+    <span class="skills-cat">السحابة وقواعد البيانات والأدوات :</span>
+    <span class="skills-items">AWS (S3, Lambda, Glue, Athena), Terraform, Supabase, PostgreSQL, MongoDB, SQLite, MySQL, Git, GitHub, Linux, Vercel</span>
 </div>
 
-<div class="section-header">الشهادات</div>
-<div class="cert-row"><strong>Google Advanced Data Analytics</strong> – Google</div>
-<div class="cert-row"><strong>Google AI Essentials</strong> – Google</div>
-<div class="cert-row"><strong>AWS Cloud Solutions Architect Professional</strong> – AWS</div>
+<div class="section-header">الشهادات المعتمدة</div>
+<div class="cert-grid-rtl">
+    <div><strong>Microsoft AI &amp; ML Engineering</strong> – Microsoft</div>
+    <div><strong>IBM Data Engineering</strong> – IBM</div>
+    <div><strong>Google Cybersecurity</strong> – Google</div>
+    <div><strong>AWS Cloud Solutions Architect</strong> – AWS</div>
+    <div><strong>Google Advanced Data Analytics</strong> – Google</div>
+    <div><strong>Google AI Essentials</strong> – Google</div>
+</div>
 
 <div class="section-header">اللغات</div>
-<div class="languages-row">
-    <strong>العربية :</strong> اللغة الأم &nbsp;&nbsp;&nbsp;&nbsp;
-    <strong>الفرنسية :</strong> متقدم &nbsp;&nbsp;&nbsp;&nbsp;
-    <strong>الإنجليزية :</strong> طليق &nbsp;&nbsp;&nbsp;&nbsp;
-    <strong>الألمانية :</strong> مبتدئ (قيد التعلّم)
+<div class="languages-row-rtl">
+    <div><strong>العربية :</strong> اللغة الأم</div>
+    <div><strong>الفرنسية :</strong> متقدم / طليق</div>
+    <div><strong>الإنجليزية :</strong> طليق</div>
+    <div><strong>الألمانية :</strong> مبتدئ (A1)</div>
 </div>
 
 </body>

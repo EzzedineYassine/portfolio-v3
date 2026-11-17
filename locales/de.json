@@ -12,8 +12,8 @@
     "name": "Yassine Ezzedine",
     "typed": [
       "Ein <span class=\"hero__fullstack\">Full-Stack</span>-Entwickler",
-      "Ein angehender <span class=\"hero__frontend\">Data Science</span>-Spezialist",
-      "Ein angehender <span class=\"hero__backend\">KI</span>-Spezialist",
+      "Ein <span class=\"hero__frontend\">Data Science</span>-Spezialist",
+      "Ein <span class=\"hero__backend\">KI</span>-Ingenieur",
       "Ihr <span class=\"hero__next\">nächster</span> Kollege"
     ],
     "paragraph": "Ich bin Wirtschaftsinformatik-Student im 3. Studienjahr (Schwerpunkt Business Intelligence) an der FSEG Nabeul und begeistere mich für Datenanalyse, maschinelles Lernen und prädiktive Modelle. Mit praktischer Erfahrung in Full-Stack-Entwicklung und Data Science suche ich ein PFE-Abschlussarbeitspraktikum im Bereich Data Science oder Künstliche Intelligenz.",

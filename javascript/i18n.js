@@ -343,8 +343,8 @@ function reobserveAnimations() {
 function updateTypedStrings(dict) {
   const typedStrings = dict.hero?.typed || [
     'A <span class="hero__fullstack">Full-Stack</span> Developer',
-    'A <span class="hero__frontend">Data Science</span> Aspirant',
-    'An <span class="hero__backend">AI</span> Aspirant',
+    'A <span class="hero__frontend">Data Science</span> Specialist',
+    'An <span class="hero__backend">AI</span> Engineer',
     'Your <span class="hero__next">Next</span> Colleague'
   ];
 

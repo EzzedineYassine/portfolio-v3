@@ -8,14 +8,8 @@ export function load() {
     }
 
     if (loader) {
-      loader.classList.add('fade-out-loader');
-      setTimeout(() => {
-        loader.style.display = 'none';
-        loader.remove();
-        resolve();
-      }, 200);
-    } else {
-      resolve();
+      loader.remove();
     }
+    resolve();
   });
 }
