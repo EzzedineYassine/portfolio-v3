@@ -262,6 +262,14 @@ Third-year Business Computing student specializing in Business Intelligence (FSE
 
 <div class="section-header">Technical Projects</div>
 <div class="entry-header">
+    <span class="entry-title">SignalForge – Local-First AIOps Investigation Platform</span>
+    <span class="entry-date">Python 3.12, PyTorch, LangGraph, Qdrant, React</span>
+</div>
+<ul class="bullets">
+    <li>Unifies multi-signal telemetry, CPU PyTorch LSTM autoencoder anomaly detection, NetworkX topology, and Hybrid RAG in a bounded LangGraph workflow with deterministic anti-hallucination guardrails.</li>
+</ul>
+
+<div class="entry-header">
     <span class="entry-title">Attritex – Customer Retention &amp; ARR Risk Intelligence</span>
     <span class="entry-date">FastAPI, React 19, TypeScript, Scikit-learn</span>
 </div>
@@ -376,6 +384,14 @@ FR_HTML = f"""<!DOCTYPE html>
 </ul>
 
 <div class="section-header">Projets Techniques</div>
+<div class="entry-header">
+    <span class="entry-title">SignalForge – Plateforme d'Investigation AIOps Locale</span>
+    <span class="entry-date">Python 3.12, PyTorch, LangGraph, Qdrant, React</span>
+</div>
+<ul class="bullets">
+    <li>Unifie la télémétrie multi-signaux, la détection d'anomalies par autoencodeur LSTM PyTorch sur CPU, la topologie NetworkX et un RAG hybride dans un workflow LangGraph borné avec garde-fous anti-hallucination.</li>
+</ul>
+
 <div class="entry-header">
     <span class="entry-title">Attritex – Prédiction du Risque de Churn &amp; Revenu ARR</span>
     <span class="entry-date">FastAPI, React 19, TypeScript, Scikit-learn</span>
@@ -492,6 +508,14 @@ Student im 3. Jahr der Wirtschaftsinformatik mit Schwerpunkt Business Intelligen
 
 <div class="section-header">Technische Projekte</div>
 <div class="entry-header">
+    <span class="entry-title">SignalForge – Lokale AIOps-Untersuchungsplattform</span>
+    <span class="entry-date">Python 3.12, PyTorch, LangGraph, Qdrant, React</span>
+</div>
+<ul class="bullets">
+    <li>Vereint Multi-Signal-Telemetrie, PyTorch CPU-LSTM-Autoencoder-Anomalieerkennung, NetworkX-Topologie und Hybrid-RAG in einem begrenzten LangGraph-Workflow mit Anti-Halluzinations-Schutz.</li>
+</ul>
+
+<div class="entry-header">
     <span class="entry-title">Attritex – Kundenbindung &amp; ARR-Risikointelligenz</span>
     <span class="entry-date">FastAPI, React 19, TypeScript, Scikit-learn</span>
 </div>
@@ -607,6 +631,14 @@ AR_HTML = f"""<!DOCTYPE html>
 </ul>
 
 <div class="section-header">المشاريع التقنية المميزة</div>
+<div class="entry-header">
+    <span class="entry-title">SignalForge – منصة التحقيق والعمليات الذكية (AIOps)</span>
+    <span class="entry-date" dir="ltr">Python 3.12, PyTorch, LangGraph, Qdrant, React</span>
+</div>
+<ul class="bullets">
+    <li>&rlm;توحد قياسات التتبع، وكشف الشذوذ بـ PyTorch LSTM على المعالج، وطوبولوجيا NetworkX، واسترجاع RAG الهجين في مسار LangGraph مقيد بحواجز حماية ضد الهلوسة.&rlm;</li>
+</ul>
+
 <div class="entry-header">
     <span class="entry-title">Attritex – التنبؤ بمخاطر خسارة العملاء والإيرادات</span>
     <span class="entry-date" dir="ltr">FastAPI, React 19, TypeScript, Scikit-learn</span>

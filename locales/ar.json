@@ -43,6 +43,27 @@
         "video": "./assets/videos/dtn-audio.mp4"
       },
       {
+        "id": "signalforge",
+        "title": "SIGNALFORGE — منصة التحقيق والعمليات الذكية (AIOps)",
+        "category": "العمليات الذكية والأنظمة الوكيلة",
+        "description": "منصة AIOps محلية ومتكاملة للتحقيق في حوادث الأنظمة الموزعة. توحد القياسات عن بعد (السجلات، المؤشرات، التتبعات، عمليات النشر)، وكشف الشذوذ بمشفرات LSTM التلقائية عبر PyTorch على المعالج المركزي، وطوبولوجيا التبعيات (NetworkX BFS)، واسترجاع RAG الهجين (Qdrant + BM25 + RRF) داخل مسار عمل LangGraph مقيد بحواجز حماية قطعية ضد الهلوسة مع لوحة تحكم React تفاعلية بـ 6 شاشات.",
+        "tags": [
+          "Python 3.12",
+          "FastAPI",
+          "PostgreSQL 16",
+          "PyTorch",
+          "LangGraph",
+          "Qdrant",
+          "NetworkX",
+          "React",
+          "TypeScript"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/signalforge",
+        "codeUrl": "https://github.com/EzzedineYassine/signalforge",
+        "image": "./assets/images/signalforge.png",
+        "video": "./assets/videos/signalforge.mp4"
+      },
+      {
         "id": "attritex",
         "title": "ATTRITEX",
         "category": "تعلم الآلي وذكاء الأعمال",

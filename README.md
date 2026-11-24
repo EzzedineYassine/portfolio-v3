@@ -21,6 +21,7 @@ A modern, high-performance, and responsive personal portfolio showcasing project
   - Integrated 1-page modern ATS-friendly CV automatically served in the active language (`cv-en.pdf`, `cv-fr.pdf`, `cv-de.pdf`, `cv-ar.pdf`).
 - **💻 Featured Project Showcase:**
   - **D.TN Audio Architecture:** Commercial digital music marketplace & beat licensing platform built with Next.js App Router, Supabase, Web Audio API, and trilingual RTL support.
+  - **SignalForge:** Local-first AIOps telemetry & incident investigation platform with live multi-signal telemetry (logs, metrics, traces, deploys), PyTorch CPU LSTM autoencoders, NetworkX dependency topology, and Hybrid RAG (Qdrant + BM25 + RRF) inside a bounded LangGraph workflow.
   - **Attritex:** Customer retention & ARR risk prediction platform with FastAPI, React 19, TypeScript, and Scikit-learn.
   - **AWS Retail Data Lake:** Event-driven serverless data lake foundation with Terraform IaC, AWS Lambda, S3, Glue, and Athena.
   - **MINI-SOC:** Defensive security log analysis, MITRE ATT&CK detection engine, and incident triage workbench with FastAPI and React.

@@ -43,6 +43,27 @@
         "video": "./assets/videos/dtn-audio.mp4"
       },
       {
+        "id": "signalforge",
+        "title": "SIGNALFORGE — AIOPS INVESTIGATION PLATFORM",
+        "category": "AIOps & Agentic Systems",
+        "description": "Local-first AIOps telemetry & incident investigation workbench. Unifies live multi-signal telemetry (logs, metrics, traces, deploys), leakage-free PyTorch CPU LSTM autoencoders, trace-derived dependency topology (NetworkX BFS), and Hybrid RAG (Qdrant + BM25 + RRF) inside a bounded LangGraph workflow with deterministic anti-hallucination guardrails and a 6-screen React console.",
+        "tags": [
+          "Python 3.12",
+          "FastAPI",
+          "PostgreSQL 16",
+          "PyTorch",
+          "LangGraph",
+          "Qdrant",
+          "NetworkX",
+          "React",
+          "TypeScript"
+        ],
+        "demoUrl": "https://github.com/EzzedineYassine/signalforge",
+        "codeUrl": "https://github.com/EzzedineYassine/signalforge",
+        "image": "./assets/images/signalforge.png",
+        "video": "./assets/videos/signalforge.mp4"
+      },
+      {
         "id": "attritex",
         "title": "ATTRITEX",
         "category": "Machine Learning & BI",
